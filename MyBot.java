@@ -254,7 +254,13 @@ public void onPrivateMessage(String sender, String login, String hostname, Strin
 }
 
 	public void onKick(String channel, String kickerNick, String kickerLogin, String kickerHostname, String recipientNick, String reason) {
-		sendMessage("MemoServ", "SENDOPS " + channel +" "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
+		sendMessage("MemoServ", "SEND rschen7754 "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
+		sendMessage("MemoServ", "SEND imzadi1979 "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
+		sendMessage("MemoServ", "SEND Fredddie "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
+		sendMessage("MemoServ", "SEND viridiscalculus "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
+		sendMessage("MemoServ", "SEND Floydian "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
+		sendMessage("MemoServ", "SEND Juliancolton "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
+		sendMessage("MemoServ", "SEND TCN7JM "+kickerNick+" kicked "+recipientNick+" from the channel "+channel+" because "+reason);
 	}
 
 	public void onDisconnect() {

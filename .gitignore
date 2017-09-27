@@ -8,3 +8,4 @@ javadocs
 *.ear
 *.class
 
+.DS_Store
